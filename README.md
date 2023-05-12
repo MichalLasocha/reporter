@@ -3,16 +3,16 @@ Simple tool written in rust to automatically create PDF files with images
 # How to use: 
 - compile the executable 
 - copy the executable to the desired directory
-- provide a file with exercises ordered from first to last, folder with images in the png format, with a numeric filename corresponding to the exercise (1.png for the first exercise)
+- provide a file with exercises ordered from first to last, a folder with images in the PNG format, with a numeric filename corresponding to the exercise (1.png for the first exercise)
 - copy the preamble pkg.tex file from the extras folder to the desired directory
 - run the executable providing the title, author, tex preamble and the exercise file 
 The tool should provide a pdf file 
 
  # Current limitations:
 - can only have one image per exercise (to be fixed)
-- Only works on Linux (and propably MacOS) (may fix)
+- Only works on Linux (and probably MacOS) (may fix)
 
-# Bulid Instruction (ubuntu)
+# Build Instruction (ubuntu)
 ```
 #Install the dependencies:
 sudo apt update -y && sudo apt install -y texlive latexmk rustc cargo
