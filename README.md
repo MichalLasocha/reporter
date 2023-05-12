@@ -10,12 +10,12 @@ The tool should provide a pdf file
 
  # Current limitations:
 - can only have one image per exercise (to be fixed)
-- Only works on Linux (and probably MacOS) (may fix)
+- only works on Linux (and probably MacOS) (may fix)
 
 # Build Instruction (ubuntu)
 ```
 #Install the dependencies:
-sudo apt update -y && sudo apt install -y texlive latexmk rustc cargo
+sudo apt update -y && sudo apt install -y texlive latexmk rustc cargo git
 #Clone and cd into the directory 
 git clone https://github.com/RawHav0kk/reporter && cd ./reporter
 #Run the compiler 
